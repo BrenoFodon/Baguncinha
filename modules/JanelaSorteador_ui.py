@@ -1,0 +1,93 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'JanelaSorteador.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindowJanelaBaguncinha(object):
+    def setupUi(self, MainWindowJanelaBaguncinha):
+        MainWindowJanelaBaguncinha.setObjectName("MainWindowJanelaBaguncinha")
+        MainWindowJanelaBaguncinha.resize(480, 190)
+        self.centralwidget = QtWidgets.QWidget(MainWindowJanelaBaguncinha)
+        self.centralwidget.setObjectName("centralwidget")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(100, 20, 271, 31))
+        font = QtGui.QFont()
+        font.setFamily("Verdana")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setObjectName("label")
+        self.pushButtonBaguncar = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButtonBaguncar.setGeometry(QtCore.QRect(170, 100, 131, 31))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButtonBaguncar.sizePolicy().hasHeightForWidth())
+        self.pushButtonBaguncar.setSizePolicy(sizePolicy)
+        self.pushButtonBaguncar.setMaximumSize(QtCore.QSize(131, 16777215))
+        font = QtGui.QFont()
+        font.setFamily("Snap ITC")
+        font.setPointSize(16)
+        self.pushButtonBaguncar.setFont(font)
+        self.pushButtonBaguncar.setLocale(QtCore.QLocale(QtCore.QLocale.Portuguese, QtCore.QLocale.Brazil))
+        self.pushButtonBaguncar.setIconSize(QtCore.QSize(20, 20))
+        self.pushButtonBaguncar.setObjectName("pushButtonBaguncar")
+        self.widget = QtWidgets.QWidget(self.centralwidget)
+        self.widget.setGeometry(QtCore.QRect(10, 60, 461, 29))
+        self.widget.setObjectName("widget")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.widget)
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.labelDiretorio = QtWidgets.QLabel(self.widget)
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        self.labelDiretorio.setFont(font)
+        self.labelDiretorio.setObjectName("labelDiretorio")
+        self.horizontalLayout.addWidget(self.labelDiretorio)
+        self.lineEditDiretorio = QtWidgets.QLineEdit(self.widget)
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        self.lineEditDiretorio.setFont(font)
+        self.lineEditDiretorio.setObjectName("lineEditDiretorio")
+        self.horizontalLayout.addWidget(self.lineEditDiretorio)
+        self.pushButtonAbrir = QtWidgets.QPushButton(self.widget)
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        self.pushButtonAbrir.setFont(font)
+        self.pushButtonAbrir.setObjectName("pushButtonAbrir")
+        self.horizontalLayout.addWidget(self.pushButtonAbrir)
+        MainWindowJanelaBaguncinha.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindowJanelaBaguncinha)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 480, 21))
+        self.menubar.setObjectName("menubar")
+        self.menuArquivo = QtWidgets.QMenu(self.menubar)
+        self.menuArquivo.setObjectName("menuArquivo")
+        MainWindowJanelaBaguncinha.setMenuBar(self.menubar)
+        self.actionAjuda = QtWidgets.QAction(MainWindowJanelaBaguncinha)
+        self.actionAjuda.setObjectName("actionAjuda")
+        self.actionSair = QtWidgets.QAction(MainWindowJanelaBaguncinha)
+        self.actionSair.setObjectName("actionSair")
+        self.menuArquivo.addAction(self.actionAjuda)
+        self.menuArquivo.addAction(self.actionSair)
+        self.menubar.addAction(self.menuArquivo.menuAction())
+
+        self.retranslateUi(MainWindowJanelaBaguncinha)
+        QtCore.QMetaObject.connectSlotsByName(MainWindowJanelaBaguncinha)
+
+    def retranslateUi(self, MainWindowJanelaBaguncinha):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindowJanelaBaguncinha.setWindowTitle(_translate("MainWindowJanelaBaguncinha", "MainWindow"))
+        self.label.setText(_translate("MainWindowJanelaBaguncinha", "Baguncinha de Arquivos"))
+        self.pushButtonBaguncar.setText(_translate("MainWindowJanelaBaguncinha", "Bagunçar!"))
+        self.labelDiretorio.setText(_translate("MainWindowJanelaBaguncinha", "Diretório"))
+        self.pushButtonAbrir.setText(_translate("MainWindowJanelaBaguncinha", "Abrir"))
+        self.menuArquivo.setTitle(_translate("MainWindowJanelaBaguncinha", "Arquivo"))
+        self.actionAjuda.setText(_translate("MainWindowJanelaBaguncinha", "Ajuda"))
+        self.actionSair.setText(_translate("MainWindowJanelaBaguncinha", "Sair"))
+
