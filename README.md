@@ -40,7 +40,7 @@ Após selecionado basta clicar no botão "Bagunçar" onde verifica se o diretori
 
 ![Arquivos Novos](https://i.imgur.com/qz77zMW.png "Arquivos da pasta nova randomizada")
 
-![Pastas](https://i.imgur.com/qz77zMW.png "Criação de uma nova pasta no mesmo diretório da anterior")
+![Pastas](https://i.imgur.com/HyweDLu.png "Criação de uma nova pasta no mesmo diretório da anterior")
 
 A nova pasta com os arquivos randomizados possui um acréscimo de "baguncinha" como citado antes e todos os arquivos foram sorteados e renomeados para números em ordem crescente. 
 
